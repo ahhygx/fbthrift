@@ -1,5 +1,7 @@
 # Set the compiler directory
 set(COMPILER_DIR ${CMAKE_CURRENT_SOURCE_DIR})
+set(CMAKE_CXX_FLAGS "-fPIC")
+set(CMAKE_C_FLAGS "-fPIC")
 
 # Override default install path for `make install` step
 set(CMAKE_INSTALL_PREFIX ${THRIFT_HOME})

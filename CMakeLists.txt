@@ -1,6 +1,4 @@
 cmake_minimum_required(VERSION 3.1.3 FATAL_ERROR)
-set(CMAKE_CXX_FLAGS "-fPIC")
-set(CMAKE_C_FLAGS "-fPIC")
 
 # Package information
 project("fbthrift" C CXX)
